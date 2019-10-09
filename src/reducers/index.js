@@ -18,7 +18,7 @@ const initialState = {
 export const reducer = (state = initialState, action) => {
   switch(action.type) {
     case 'ADD_FEATURE':
-      console.log('The add feature payload is ', action.payload);
+      // console.log('The add feature payload is ', action.payload);
       // console.log('The current state is', state );
       return {
         ...state,
