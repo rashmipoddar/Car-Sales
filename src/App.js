@@ -18,6 +18,9 @@ const App = props => {
     // dipsatch an action here to add an item
   };
 
+
+  // The better way to do this will be to add connect and get the state needed in each component in that  respective component rather than getting state in App.js and passing it to the child component.
+  
   return (
     <div className="boxes">
       <div className="box">

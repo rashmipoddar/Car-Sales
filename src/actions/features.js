@@ -1,12 +1,8 @@
 export const ADD_FEATURE = 'ADD_FEATURE';
-export const addFeature = ({name, price, id}) => {
+export const addFeature = (feature) => {
   return {
     type: ADD_FEATURE,
-    payload: {
-      id,
-      name,
-      price
-    }
+    payload: feature
   }
 }
 
